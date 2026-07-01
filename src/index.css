@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  body {
+    @apply bg-white text-primary font-sans antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 text-sm font-medium tracking-wide transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-primary text-white hover:bg-accent;
+  }
+  .btn-outline {
+    @apply btn border border-primary text-primary hover:bg-primary hover:text-white;
+  }
+  .btn-accent {
+    @apply btn bg-accent text-white hover:bg-accent-dark;
+  }
+  .input {
+    @apply w-full px-4 py-3 text-sm border border-gray-300 bg-white focus:border-primary focus:outline-none transition-colors;
+  }
+  .label {
+    @apply block text-xs font-medium tracking-wide text-gray-600 mb-2 uppercase;
+  }
+  .container-luxe {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  .product-card-image {
+    @apply relative overflow-hidden bg-stone-light aspect-[3/4];
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-serif font-light text-center mb-2;
+  }
+  .section-subtitle {
+    @apply text-sm tracking-widest text-gray-500 uppercase text-center mb-12;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9a96e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8985a;
+}
+
+/* Smooth transitions for all interactive elements */
+a, button {
+  transition: all 0.2s ease;
+}
+
+/* Hide number input arrows */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
