@@ -69,7 +69,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-serif font-bold mb-3">LUXE</h3>
+            <h3 className="text-2xl font-serif font-bold mb-3">Aurelia</h3>
             <p className="text-sm text-white/60 leading-relaxed mb-4">{t('footer.aboutText')}</p>
             <div className="flex gap-3">
               {socialLinks.map((social) => (
@@ -139,7 +139,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
         <div className="container-luxe py-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-white/50">© 2025 LUXE Fashion. {t('footer.rights')}</p>
+          <p className="text-xs text-white/50">© 2025 Aurelia.{t('footer.rights')}</p>
           <div className="flex gap-6">
             <a href="#" className="text-xs text-white/50 hover:text-white transition-colors">{t('footer.privacy')}</a>
             <a href="#" className="text-xs text-white/50 hover:text-white transition-colors">{t('footer.terms')}</a>
