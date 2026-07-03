@@ -80,13 +80,12 @@ export default function Header() {
 
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2 lg:absolute lg:left-1/2 lg:-translate-x-1/2">
-              <span className="text-2xl md:text-3xl font-serif font-bold tracking-tight text-primary">
-                LUXE
+             <span className="text-2xl md:text-3xl font-serif font-bold tracking-tight text-primary">
+                Aurelia
               </span>
               <span className="hidden sm:inline text-xs tracking-[0.3em] text-accent uppercase mt-1">
-                Fashion
+                Studio
               </span>
-            </Link>
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-8">
