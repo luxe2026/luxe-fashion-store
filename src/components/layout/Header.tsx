@@ -86,7 +86,7 @@ export default function Header() {
               <span className="hidden sm:inline text-xs tracking-[0.3em] text-accent uppercase mt-1">
                 Studio
               </span>
-
+              </Link>
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-8">
               {navLinks.map((link) => (
