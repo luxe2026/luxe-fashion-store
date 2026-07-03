@@ -29,7 +29,7 @@ export const translations = {
     'home.shopByCategorySub': 'Find your perfect style',
     'home.shopAll': 'Shop All',
     'home.brandStory': 'Our Story',
-    'home.brandStoryTitle': ''More Than Fashion',
+    'home.brandStoryTitle': 'More Than Fashion',
     'home.brandStoryText': 'We believe a great piece of clothing is more than an outfit. It is an expression of confidence. Aurelia curates every piece with care, from fabric to cut, helping women everywhere find their own style. Wherever you are, we deliver fashion made with heart.',
     'home.brandStoryCta': 'Learn More',
     'home.newsletter': 'Join Our Newsletter',
