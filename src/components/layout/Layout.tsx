@@ -5,8 +5,7 @@ import Footer from './Footer'
 import CartDrawer from '../CartDrawer'
 
 const WHATSAPP_NUMBER = '8618320272130'
-const WHATSAPP_MESSAGE = "Hello! I'm interested in your products on LUXE Fashion Store."
-
+const WHATSAPP_MESSAGE = "Hello! I'm interested in your products on Aurelia."
 export default function Layout() {
   const location = useLocation()
 
