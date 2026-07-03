@@ -8,24 +8,29 @@ export const categories: CategoryInfo[] = [
   { key: 'accessories', labelEn: 'Accessories', labelZh: '配饰', image: 'https://picsum.photos/seed/luxe-acc-cat/600/800' },
   { key: 'footwear', labelEn: 'Footwear', labelZh: '鞋履', image: 'https://picsum.photos/seed/luxe-shoes-cat/600/800' },
 ]
-
 export const heroBanners = [
   {
     id: 1,
     image: 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/35e654963bbf4e56a918df8000180b33~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d',
-    titleEn: 'Autumn Collection 2025', titleZh: '2025 秋冬系列',
-    subtitleEn: 'Timeless elegance meets modern design', subtitleZh: '永恒优雅 邂逅现代设计',
+    titleEn: 'New Season, New You', titleZh: '全新季节 全新自己',
+    subtitleEn: 'Curated pieces for the modern woman', subtitleZh: '为现代女性精心挑选',
     ctaEn: 'Shop Now', ctaZh: '立即选购', link: '/shop',
   },
   {
     id: 2,
     image: 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/64bd22fd0c3b49f0a3627819167befe1~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d',
     titleEn: 'New Arrivals', titleZh: '新品上市',
-    subtitleEn: "Discover this season's must-have pieces", subtitleZh: '探索本季必备单品',
+    subtitleEn: 'Fresh styles just landed', subtitleZh: '全新款式刚到货',
     ctaEn: 'Explore', ctaZh: '探索', link: '/shop?filter=new',
   },
+  {
+    id: 3,
+    image: 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/2b6abd11b43f4dcfadf8b9683436356e~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d',
+    titleEn: 'Best Sellers', titleZh: '热卖精选',
+    subtitleEn: 'Our most loved pieces', subtitleZh: '最受欢迎的单品',
+    ctaEn: 'Shop Best Sellers', ctaZh: '选购热卖', link: '/shop',
+  },
 ]
-
 export const products: Product[] = [
   { id: 1, slug: 'one-piece-pants-d', name: "2025 Summer New European and American Style One-Piece Pants with 3D Flowers, Hot Girl Style, Slim Fit, Unique Women's Halter Neck romper", category: 'women', price: 30.99, description: "A stunning jumpsuit that elevates your wardrobe. and American Style One-Piece Pants with 3D Flowers, Hot Girl Style, Slim Fit, Unique Women's Halter ... Crafted with attention to detail and designed for the modern woman who values both style and comfort.", details: ['Premium quality fabric blend', 'Machine washable on gentle cycle, hang dry', 'Available in multiple colors and sizes', 'Free worldwide shipping on orders over $150', '7-day hassle-free return policy'], images: ['https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/35e654963bbf4e56a918df8000180b33~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d', 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/d5b73dcb42bc4df9985d52a80a2b18a4~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d', 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/0cdd7a7a721b4f419c274f948296310f~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d', 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/b9e9cd0c0111403d8ede87b4a5e3c882~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d', 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/8f50c0cb158a408e9840af67f9ff63b8~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d', 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/d32fa1b551b444d884b463198a9aff24~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d'], colors: [{ name: 'black', hex: '#1a1a1a' }], sizes: ['S', 'L'], rating: 4.6, reviewCount: 27, isNew: true, stock: 468 },
   { id: 2, slug: 's-solid-color-slim', name: "European and American New Women's Fashion Autumn Winter Solid Color Slim Fit Elegant Long Sleeve Dress High-end Feel", category: 'women', price: 60.99, description: "A stunning dress that elevates your wardrobe. European and American New Women's Fashion Autumn Winter Solid Color Slim Fit Elegant Long Sleeve Dre... Crafted with attention to detail and designed for the modern woman who values both style and comfort.", details: ['Premium quality fabric blend', 'Machine washable on gentle cycle, hang dry', 'Available in multiple colors and sizes', 'Free worldwide shipping on orders over $150', '7-day hassle-free return policy'], images: ['https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/64bd22fd0c3b49f0a3627819167befe1~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d', 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/375f1ee9993e41a59e5a87efe9f05f32~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d', 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/a72453ecd8464bc586ec892937831488~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d', 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/f2791e4a479140cd9355bb8f660b5d91~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d', 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/0862cb5afe9441d88b8ee450367d3a5a~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d', 'https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/2a1d5c5141954206b99e9e974143a94b~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d'], colors: [{ name: 'Apricot', hex: '#e8d5b0' }, { name: 'coffee', hex: '#6f4e37' }, { name: 'black', hex: '#1a1a1a' }], sizes: ['XS', 'S', 'L'], rating: 4.7, reviewCount: 34, isNew: true, isBestSeller: true, stock: 497 },
