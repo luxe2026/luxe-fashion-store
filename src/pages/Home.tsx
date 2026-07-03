@@ -11,7 +11,6 @@ export default function Home() {
   const bestSellers = getBestSellers()
   const featured = products.slice(0, 8)
 
-  // Hero carousel auto-play
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % heroBanners.length)
@@ -37,7 +36,6 @@ export default function Home() {
           </div>
         ))}
 
-        {/* Hero Content */}
         <div className="absolute inset-0 flex items-center justify-center text-center text-white px-4">
           <div className="max-w-2xl">
             <p className="text-sm tracking-[0.3em] uppercase mb-4 text-white/80 animate-fade-in">
@@ -58,7 +56,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Carousel Dots */}
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2">
           {heroBanners.map((_, idx) => (
             <button
@@ -147,13 +144,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Brand Story / Editorial */}
+      {/* Brand Story */}
       <section className="py-16 md:py-24">
         <div className="container-luxe">
           <div className="grid lg:grid-cols-2 gap-8 md:gap-16 items-center">
             <div className="relative">
               <img
-             https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/d7a34a50a32e41d0bc5d1b26ab9818bb~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d
+                src="https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/d7a34a50a32e41d0bc5d1b26ab9818bb~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d"
                 alt="Brand Story"
                 className="w-full aspect-[4/5] object-cover"
               />
@@ -161,12 +158,12 @@ export default function Home() {
                 <p className="text-4xl font-serif font-light">100%</p>
                 <p className="text-xs tracking-widest uppercase mt-1">{language === 'en' ? 'Curated with Care' : '用心精选'}</p>
               </div>
-          
-            </div
+            </div>
+            <div>
               <p className="text-xs tracking-[0.3em] uppercase text-accent mb-4">{t('home.brandStory')}</p>
               <h2 className="text-3xl md:text-4xl font-serif font-light mb-6">{t('home.brandStoryTitle')}</h2>
               <p className="text-gray-600 leading-relaxed mb-8">{t('home.brandStoryText')}</p>
-             <div className="grid grid-cols-3 gap-4 mb-8">
+              <div className="grid grid-cols-3 gap-4 mb-8">
                 <div className="text-center border-r border-gray-200 last:border-0">
                   <p className="text-lg font-serif text-accent">{language === 'en' ? 'Curated' : '精选'}</p>
                   <p className="text-xs text-gray-500 mt-1">{language === 'en' ? 'Handpicked pieces' : '用心挑选'}</p>
@@ -222,7 +219,7 @@ export default function Home() {
       {/* Editorial Banner */}
       <section className="relative h-[50vh] overflow-hidden">
         <img
-          https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/2b6abd11b43f4dcfadf8b9683436356e~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d
+          src="https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/2b6abd11b43f4dcfadf8b9683436356e~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d"
           alt="Editorial"
           className="w-full h-full object-cover"
         />
