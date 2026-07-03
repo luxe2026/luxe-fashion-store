@@ -153,31 +153,31 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-8 md:gap-16 items-center">
             <div className="relative">
               <img
-                src="https://picsum.photos/seed/luxe-story/800/900"
+             https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/d7a34a50a32e41d0bc5d1b26ab9818bb~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d
                 alt="Brand Story"
                 className="w-full aspect-[4/5] object-cover"
               />
               <div className="absolute -bottom-6 -right-6 bg-accent text-white p-6 md:p-8 hidden md:block">
-                <p className="text-4xl font-serif font-light">10+</p>
-                <p className="text-xs tracking-widest uppercase mt-1">{language === 'en' ? 'Years of Craft' : '年匠心工艺'}</p>
+                <p className="text-4xl font-serif font-light">100%</p>
+                <p className="text-xs tracking-widest uppercase mt-1">{language === 'en' ? 'Curated with Care' : '用心精选'}</p>
               </div>
-            </div>
-            <div>
+          
+            </div
               <p className="text-xs tracking-[0.3em] uppercase text-accent mb-4">{t('home.brandStory')}</p>
               <h2 className="text-3xl md:text-4xl font-serif font-light mb-6">{t('home.brandStoryTitle')}</h2>
               <p className="text-gray-600 leading-relaxed mb-8">{t('home.brandStoryText')}</p>
-              <div className="grid grid-cols-3 gap-4 mb-8">
+             <div className="grid grid-cols-3 gap-4 mb-8">
                 <div className="text-center border-r border-gray-200 last:border-0">
-                  <p className="text-2xl font-serif text-accent">50K+</p>
-                  <p className="text-xs text-gray-500 mt-1">{language === 'en' ? 'Happy Customers' : '满意客户'}</p>
+                  <p className="text-lg font-serif text-accent">{language === 'en' ? 'Curated' : '精选'}</p>
+                  <p className="text-xs text-gray-500 mt-1">{language === 'en' ? 'Handpicked pieces' : '用心挑选'}</p>
                 </div>
                 <div className="text-center border-r border-gray-200 last:border-0">
-                  <p className="text-2xl font-serif text-accent">120+</p>
-                  <p className="text-xs text-gray-500 mt-1">{language === 'en' ? 'Countries' : '个国家'}</p>
+                  <p className="text-lg font-serif text-accent">{language === 'en' ? 'Global' : '全球'}</p>
+                  <p className="text-xs text-gray-500 mt-1">{language === 'en' ? 'Shipped worldwide' : '全球配送'}</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-2xl font-serif text-accent">4.9</p>
-                  <p className="text-xs text-gray-500 mt-1">{language === 'en' ? 'Avg Rating' : '平均评分'}</p>
+                  <p className="text-lg font-serif text-accent">{language === 'en' ? 'Trusted' : '信赖'}</p>
+                  <p className="text-xs text-gray-500 mt-1">{language === 'en' ? 'Secure checkout' : '安全支付'}</p>
                 </div>
               </div>
               <Link to="/about" className="btn-primary">{t('home.brandStoryCta')}</Link>
@@ -222,7 +222,7 @@ export default function Home() {
       {/* Editorial Banner */}
       <section className="relative h-[50vh] overflow-hidden">
         <img
-          src="https://picsum.photos/seed/luxe-editorial/1600/800"
+          https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/2b6abd11b43f4dcfadf8b9683436356e~tplv-o3syd03w52-origin-jpeg.jpeg?dr=15568&from=520841845&idc=my&ps=933b5bde&shcp=2c1af732&shp=1f0b6a75&t=555f072d
           alt="Editorial"
           className="w-full h-full object-cover"
         />
