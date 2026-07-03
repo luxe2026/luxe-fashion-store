@@ -29,8 +29,8 @@ export const translations = {
     'home.shopByCategorySub': 'Find your perfect style',
     'home.shopAll': 'Shop All',
     'home.brandStory': 'Our Story',
-    'home.brandStoryTitle': 'Crafted with Passion',
-    'home.brandStoryText': 'Since 2015, LUXE has been dedicated to creating timeless fashion pieces that blend quality craftsmanship with contemporary design. Every garment is thoughtfully designed and ethically produced.',
+    'home.brandStoryTitle': ''More Than Fashion',
+    'home.brandStoryText': 'We believe a great piece of clothing is more than an outfit — it\'s an expression of confidence.Aurelia curates every piece with care, from fabric to cut, helping women everywhere find their own style.Wherever you are,we deliver fashion on made with heart.',
     'home.brandStoryCta': 'Learn More',
     'home.newsletter': 'Join Our Newsletter',
     'home.newsletterText': 'Subscribe for exclusive offers, early access to new collections, and styling tips.',
@@ -42,10 +42,9 @@ export const translations = {
     'home.easyReturns': 'Easy 30-Day Returns',
     'home.easyReturnsText': 'Hassle-free return policy',
     'home.securePayment': 'Secure Payment',
-    'home.securePaymentText': 'Multiple payment options',
+    'home.securePaymentText': 'PayPal protected checkout',
     'home.qualityGuarantee': 'Quality Guarantee',
-    'home.qualityGuaranteeText': 'Premium materials & craft',
-
+    'home.qualityGuaranteeText': 'Carefully curated pieces',
     // Product
     'product.addToCart': 'Add to Cart',
     'product.buyNow': 'Buy Now',
@@ -169,7 +168,7 @@ export const translations = {
     'auth.forgotPassword': 'Forgot Password?',
     'auth.welcomeBack': 'Welcome Back',
     'auth.welcomeText': 'Sign in to your account to continue',
-    'auth.joinUs': 'Join LUXE',
+    'auth.joinUs': 'Join Aurelia',
     'auth.joinText': 'Create an account for a faster checkout and order tracking',
     'auth.invalidCredentials': 'Invalid email or password',
     'auth.passwordMismatch': 'Passwords do not match',
@@ -205,7 +204,7 @@ export const translations = {
     'status.cancelled': 'Cancelled',
 
     // Footer
-    'footer.about': 'About LUXE',
+    'footer.about': 'About Aurelia',
     'footer.aboutText': 'Premium fashion for the modern world. We believe in timeless style, ethical production, and exceptional quality.',
     'footer.quickLinks': 'Quick Links',
     'footer.customerService': 'Customer Service',
@@ -259,8 +258,8 @@ export const translations = {
     'home.shopByCategorySub': '找到你的完美风格',
     'home.shopAll': '查看全部',
     'home.brandStory': '品牌故事',
-    'home.brandStoryTitle': '匠心制作',
-    'home.brandStoryText': '自2015年以来,LUXE 致力于打造将精湛工艺与当代设计融合的永恒时尚单品。每一件服装都经过精心设计和道德生产。',
+    'home.brandStoryTitle': '不只是时尚',
+    'home.brandStoryText':'我们相信,一件好衣服不只是穿搭,更是���信的表达。Aurelia 精选每一件单品,从面料到剪裁,只为让每个女性找到属于自己的风格。无论你在世界的哪个角落,我们都为你送上最用心的时尚。',
     'home.brandStoryCta': '了解更多',
     'home.newsletter': '订阅通讯',
     'home.newsletterText': '订阅以获取独家优惠、新品抢先体验和穿搭建议。',
@@ -272,9 +271,9 @@ export const translations = {
     'home.easyReturns': '30天轻松退换',
     'home.easyReturnsText': '无忧退换政策',
     'home.securePayment': '安全支付',
-    'home.securePaymentText': '多种支付方式',
+    'home.securePaymentText': 'PayPal 安全支付',
     'home.qualityGuarantee': '品质保证',
-    'home.qualityGuaranteeText': '优质材料与工艺',
+    'home.qualityGuaranteeText': '精心挑选单品',
 
     // Product
     'product.addToCart': '加入购物车',
@@ -398,7 +397,7 @@ export const translations = {
     'auth.forgotPassword': '忘记密码?',
     'auth.welcomeBack': '欢迎回来',
     'auth.welcomeText': '登录您的账户以继续',
-    'auth.joinUs': '加入 LUXE',
+    'auth.joinUs': '加入 Aurelia',
     'auth.joinText': '创建账户以享受更快的结算和订单追踪',
     'auth.invalidCredentials': '邮箱或密码错误',
     'auth.passwordMismatch': '两次密码不一致',
@@ -434,7 +433,7 @@ export const translations = {
     'status.cancelled': '已取消',
 
     // Footer
-    'footer.about': '关于 LUXE',
+    'footer.about': '关于 Aurelia',
     'footer.aboutText': '为现代世界打造的高端时尚。我们坚信永恒的风格、道德生产和卓越的品质。',
     'footer.quickLinks': '快速链接',
     'footer.customerService': '客户服务',
