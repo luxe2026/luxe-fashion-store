@@ -76,7 +76,7 @@ function buildProductHtml(p) {
     )
     .replace(
       /<meta property="og:url" content="[^"]*"/,
-      `<meta property="og:url" content="${SITE_URL}/product/${p.slug}"`,
+      `<meta property="og:url" content="${SITE_URL}/product/${p.slug}/"`,
     )
     .replace(
       /<meta property="og:image" content="[^"]*"/,
@@ -88,7 +88,7 @@ function buildProductHtml(p) {
     )
     .replace(
       /<link rel="canonical" href="[^"]*"/,
-      `<link rel="canonical" href="${SITE_URL}/product/${p.slug}"`,
+      `<link rel="canonical" href="${SITE_URL}/product/${p.slug}/"`,
     );
 
   const jsonLd = {
@@ -113,7 +113,7 @@ function buildProductHtml(p) {
         p.stock > 0
           ? "https://schema.org/InStock"
           : "https://schema.org/OutOfStock",
-      url: `${SITE_URL}/product/${p.slug}`,
+      url: `${SITE_URL}/product/${p.slug}/`,
     },
   };
 
@@ -157,11 +157,11 @@ let shopHtml = template
   )
   .replace(
     /<meta property="og:url" content="[^"]*"/,
-    `<meta property="og:url" content="${SITE_URL}/shop"`,
+    `<meta property="og:url" content="${SITE_URL}/shop/"`,
   )
   .replace(
     /<link rel="canonical" href="[^"]*"/,
-    `<link rel="canonical" href="${SITE_URL}/shop"`,
+    `<link rel="canonical" href="${SITE_URL}/shop/"`,
   );
 const shopDir = path.join(distDir, "shop");
 fs.mkdirSync(shopDir, { recursive: true });

@@ -4,6 +4,13 @@ import { getProductBySlug } from '@/data/products'
 
 const SITE_URL = 'https://luxe2026.github.io/luxe-fashion-store'
 
+/** Build the canonical URL for a path, adding a trailing slash for sub-routes
+ *  to match GitHub Pages' actual served URLs (avoids 301 redirects). */
+function canonicalUrl(path: string): string {
+  if (path === '/' || path === '') return SITE_URL + '/'
+  return SITE_URL + (path.endsWith('/') ? path : path + '/')
+}
+
 function upsertMeta(attr: 'name' | 'property', key: string, content: string) {
   let el = document.head.querySelector(
     `meta[${attr}="${key}"]`,
@@ -100,7 +107,7 @@ export function useSEO() {
             product.stock > 0
               ? 'https://schema.org/InStock'
               : 'https://schema.org/OutOfStock',
-          url: `${SITE_URL}/product/${product.slug}`,
+          url: `${canonicalUrl('/product/' + product.slug)}`,
         },
       })
     } else {
@@ -121,13 +128,13 @@ export function useSEO() {
     upsertMeta('property', 'og:title', title)
     upsertMeta('property', 'og:description', description)
     upsertMeta('property', 'og:image', ogImage)
-    upsertMeta('property', 'og:url', SITE_URL + path)
+    upsertMeta('property', 'og:url', canonicalUrl(path))
     upsertMeta('property', 'og:type', ogType)
     upsertMeta('property', 'og:site_name', 'Aurelia')
     upsertMeta('name', 'twitter:card', 'summary_large_image')
     upsertMeta('name', 'twitter:title', title)
     upsertMeta('name', 'twitter:description', description)
     upsertMeta('name', 'twitter:image', ogImage)
-    upsertLink('canonical', SITE_URL + path)
+    upsertLink('canonical', canonicalUrl(path))
   }, [location])
 }
